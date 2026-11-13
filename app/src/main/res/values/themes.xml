@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App.Main" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:navigationBarColor">@color/status_bar_color</item>
+    </style>
+
+    <style name="Theme.App.Splash" parent="Theme.App.Main">
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+</resources>
